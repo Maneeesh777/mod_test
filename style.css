@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.a-white{
+    text-decoration: none;
+    color: white;
+}
+.d-flex{
+    background-color: black;
+}
+#main_heading{
+    font-size: 180px;
+    display: block;
+    animation-name: fade_ing;
+    animation: fadeIn 5s;
+}
+#our_services,#About_Us{
+    font-size: 20px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+form{
+    margin: 70px;
+}
+#foot_head{
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+#our_services,#Abt-Us{
+    padding: 10px;
+    font-size: 35px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px solid black;
+    padding: 8px;
+}
+#btn{
+    padding: 10px;
+    font-size: 15px;
+    width: 180px;
+}
+#about-us{
+    height: 520px;
+    width: 450px;   
+}
+#laptop{
+    height: 350px;
+    width: 500px;
+    margin-top: 260px;
+    margin-left: 100px;
+}
+.fa-arrow-down{
+    height: 70px;
+}
+#arrow{
+    text-decoration: none;
+}
+#our_services{
+    margin: 20px;
+}
+.card{
+    column-gap: 10px;  
+    margin: 20px;
+    padding: 10px;
+    width: 90px;
+    height: 30px;
+    transition: background-color 0.3s ease-out 100ms
+}
+.card:hover {
+    background-color: black;
+    color: white;
+  }
+#card_1{
+    margin-left: 100px;
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    #About_Us {   
+      flex-direction: column;
+      margin-left: 20px;
+    }
+  }
